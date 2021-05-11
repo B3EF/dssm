@@ -30,7 +30,7 @@ def train_siamese():
     # 读取配置
     # conf = Config()
     cfg_path = "./configs/config.yml"
-    cfg = yaml.load(open(cfg_path, encoding='utf-8'), Loader=yaml.FullLoader)
+    cfg = yaml.load(open(cfg_path, encoding='utf-8'), Loader=yaml.SafeLoader)
     # 读取数据
     data_train, data_val, data_test = data_input.get_lcqmc()
     # data_train = data_train[:100]
