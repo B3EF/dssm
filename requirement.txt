@@ -3,5 +3,5 @@ paddlehub==1.8.2
 TensorFlow==1.12
 sklearn
 pyyaml
-keras==2.2.5
+keras==2.6.0rc3
 argparse
